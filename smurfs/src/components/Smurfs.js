@@ -26,7 +26,7 @@ const mapStateToProps = state => {
     return{
         list: state.smurfList,
         getErr: state.errorGet,
-        postErr: state.postErr,
+        postErr: state.errorPost,
         fetching: state.isFetching
     }
 }
