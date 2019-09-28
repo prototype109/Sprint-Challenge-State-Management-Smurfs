@@ -12,7 +12,7 @@ const SmurfForm = props => {
     const submitSmurf = e => {
         e.preventDefault();
         props.postSmurfs(smurf);
-        setSmurf({});
+        setSmurf({name: '', age: '', height: ''});
     }
 
     return(
