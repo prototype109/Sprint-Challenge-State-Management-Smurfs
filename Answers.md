@@ -15,8 +15,9 @@ Component state is the state of the current component being viewed, is not neede
 
 1. Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
 
-Redux-Thunk allows us to take out the dispatch from the middleware and use it to manipulate an action to dispatch different things depending on what needs to
-be done.
+Redux-Thunk allows us to take out the dispatch from the middleware and use it to manipulate an action during
+asynchronous operations to provide different dispatches during the beggining, middle and end of the asynchronous
+action.
 
 1. What is your favorite state management system you've learned and this sprint? Please explain why!
 
